@@ -1,0 +1,44 @@
+.cabecalho_areamensagem_container{
+    width: 100%;
+    height: 7.5%;
+    background-color: #2a2f32;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    border-left: 1px solid #3f4448;
+}
+
+.cabecalho_areamensagem_container > .dados{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.cabecalho_areamensagem_container > .dados > img{
+    border-radius: 50%;
+    height: 80%;
+    margin-right: 20px;
+}
+
+.cabecalho_areamensagem_container > .dados > .dados_info > .nome{
+    font-size: 13pt;
+    padding-bottom: 7px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: #e1e2e3;
+}
+
+.cabecalho_areamensagem_container > .dados > .dados_info > .status{
+    font-size: 9pt;    
+    color: #9c9fa2;
+    font-weight: bolder;
+
+}
+
+.cabecalho_areamensagem_container > .icons > svg{
+    color: #b1b3b5;
+    margin-right: 25px;
+}
+

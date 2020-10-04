@@ -1,0 +1,52 @@
+.mensagens_container{
+    width: 100%;
+    height: 85%;
+    background-image: url("../../../assets/wallpaper_areamensagem.png");
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.mensagens_container > .lista_mensagens{
+    color: #ced8d7;
+    width: 100%;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+
+}
+
+.mensagens_container > .lista_mensagens > .enviada{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 20px;
+    padding-right: 60px;
+    font-family: sans-serif;
+}
+
+.mensagens_container > .lista_mensagens > .recebida{
+    display: flex;
+    justify-content: start;
+    padding-top: 20px;
+    padding-left: 60px;
+    font-family: sans-serif;
+}
+
+.balaoenviada{
+    max-width: 70%;
+    padding: 10px 10px;
+    border-radius: 7.5px;
+    background-color: #054740;
+    border-top-right-radius: 0 ;
+}
+
+.balaorecebida{
+    max-width: 70%;
+    padding: 10px 10px;
+    border-radius: 7.5px;
+    background-color: #262d31;
+}
+
+.horamensagem{
+    text-align: end;
+    font-size: 9pt;
+}

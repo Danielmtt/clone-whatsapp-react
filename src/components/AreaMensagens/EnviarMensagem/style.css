@@ -1,0 +1,38 @@
+.enviarmensagem_container{
+    width: 100%;
+    height: 7.5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 20px ;
+    box-sizing: border-box;
+    background-color: rgb(30, 36, 40);
+}
+
+.enviarmensagem_container > .send_box{
+    margin: 2.5% auto;
+    border: none;
+    width: 82.5%;
+    height: 70%;
+    background-color: #323739;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.enviarmensagem_container >.send_box > input{
+    width: 90%;
+    height: 50%;
+    border: none;
+    outline: none;
+    background-color:rgb(51, 56, 59);
+    padding-left: 10px;
+    font-size: 16px;
+    color: #ced8d7;
+}
+
+.enviarmensagem_container svg{
+    margin: 0 10px;
+    color: #b1b3b5
+}

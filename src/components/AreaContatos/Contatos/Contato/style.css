@@ -1,0 +1,52 @@
+.contato_container{
+    display: flex;
+    padding-left: 10px;
+    height: 70px;
+    align-items: center;
+    font-family: sans-serif;
+    justify-content: space-between;
+}
+
+.selected{
+    background-color: #323739;
+}
+
+.contato_container:hover{
+    background-color: #323739;
+}
+
+.contato_container > img{
+    height: 40px;
+    background-color: gray;
+    border-radius: 50%;
+}
+
+
+.contato_container > div{
+    border-bottom: #30383d solid 0.1px;
+    width: 87%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.contato_container > div > .ultima_mensagem{
+    color: #909497;
+    font-size: 10pt;
+}
+
+.contato_container > div > .stats{
+    display: flex;
+    justify-content: space-between;
+}
+
+.stats > .nome_contato{
+    color: #dfe0e2;
+    margin-bottom: 5px;
+}
+
+.stats > .hora{
+    color: #909497;
+    font-size: 8pt;
+    padding-right: 10px;
+}

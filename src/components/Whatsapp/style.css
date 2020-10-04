@@ -1,0 +1,27 @@
+.whatsapp_container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #090e11;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.whatsapp_container > .whatsapp_area{
+    width: 75vw;
+    height: 85vh;
+    background-color: #2a2f32;
+    display: flex;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #131c21;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #394045;
+}

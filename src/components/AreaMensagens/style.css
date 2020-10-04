@@ -1,0 +1,22 @@
+.areamensagens_container{
+    width: 70%;
+    height: 100%;
+}
+
+.nenhumContatoSelecionado{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #262D31;
+
+}
+
+.nenhumContatoSelecionado > div{
+    background-image: url(../../assets/nenhumContatoSelecionado.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 70%;
+    height: 100%;
+}
